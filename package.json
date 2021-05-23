@@ -1,0 +1,29 @@
+{
+  "name": "slp_automation_tests",
+  "version": "1.0.0",
+  "description": "slp tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zora976/SLP_automation_tests.git"
+  },
+  "author": "Zora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zora976/SLP_automation_tests/issues"
+  },
+  "homepage": "https://github.com/Zora976/SLP_automation_tests#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.6.0",
+    "@wdio/cucumber-framework": "^7.6.0",
+    "@wdio/dot-reporter": "^7.6.0",
+    "@wdio/local-runner": "^7.6.0",
+    "@wdio/sync": "^7.6.0",
+    "chromedriver": "^90.0.1",
+    "wdio-chromedriver-service": "^7.1.0",
+    "webdriverio": "^7.6.0"
+  }
+}
