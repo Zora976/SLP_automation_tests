@@ -1,16 +1,16 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-const LoginPage = require('../features/pageobjects/login.page');
-const SecurePage = require('../features/pageobjects/secure.page');
+const LoginPage = require('../pages/login.page');
+const SecurePage = require('../pages/secure.page');
 
-
-const pages = {
-    login: LoginPage
-}
+//const pages = {
+    //login: LoginPage
+//}
 
 Given(/^I am on the (\w+) page$/, (page) => {
-    pages[page].open()
-   
+    //pages[page].open()
+    //browser.url('/')
+   browser.url(page);
 });
 
 When(/^I login with (.*) and (.+)$/,  (username, password) => {
